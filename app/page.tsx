@@ -26,7 +26,7 @@ const events = [
   },
   {
     id: 3,
-    title: "MSSN Nigeria Summit",
+    title: "MSSN Summit University Offa",
     category: "Faith",
     date: "20 NOV, 2026",
     time: "9:00 AM",
