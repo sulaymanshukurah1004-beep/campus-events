@@ -69,13 +69,13 @@ export default function Home() {
           </a>
 
           <nav className="nav-links">
-            <a href="#home" className="active">Home</a>
-            <a href="#events">Explore Events</a>
-            <a href="#categories">Categories</a>
-            <a href="#about">About Us</a>
+            <a href="../home" className="active">Home</a>
+            <a href="../explore-events">Explore Events</a>
+            <a href="../categories">Categories</a>
+            <a href="../about">About Us</a>
           </nav>
 
-          <a href="/my-events" className="saved-link">
+          <a href="../my-events" className="saved-link">
             ♡ My Events
           </a>
         </div>
