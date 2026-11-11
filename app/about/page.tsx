@@ -29,7 +29,7 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1100" alt="Students at a university gathering" />
+          <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1100" alt="University students working together outdoors" />
         </div>
       </section>
 

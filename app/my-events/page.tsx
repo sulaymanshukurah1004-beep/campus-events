@@ -56,7 +56,7 @@ export default function MyEventsPage() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1100" alt="Friends enjoying time together" />
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=1100" alt="Friends sharing a meal together" />
         </div>
       </section>
 

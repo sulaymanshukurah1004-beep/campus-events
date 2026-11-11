@@ -4,10 +4,50 @@
 import { useState } from "react";
 
 const events = [
-  { id: 1, title: "Campus Tech Innovation Summit", category: "Technology", date: "15 NOV, 2026", time: "10:00 AM", venue: "University Auditorium", image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=900", description: "Discover new ideas, technology and innovation.", color: "purple" },
-  { id: 2, title: "Interfaculty Football Tournament", category: "Sports", date: "18 NOV, 2026", time: "3:00 PM", venue: "University Sports Field", image: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=900", description: "Watch your favourite faculties compete for glory.", color: "green" },
-  { id: 3, title: "MSSN Nigeria Summit", category: "Faith", date: "20 NOV, 2026", time: "9:00 AM", venue: "Main Campus Mosque", image: "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=900", description: "A gathering for learning, faith and meaningful connections.", color: "orange" },
-  { id: 4, title: "Campus Dinner Party", category: "Social", date: "22 NOV, 2026", time: "5:00 PM", venue: "Students' Centre", image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=900", description: "An evening of good food, music and unforgettable memories.", color: "pink" },
+  {
+    id: 1,
+    title: "Campus Tech Innovation Summit",
+    category: "Technology",
+    date: "15 NOV, 2026",
+    time: "10:00 AM",
+    venue: "University Auditorium",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900",
+    description: "Discover new ideas, technology and innovation.",
+    color: "purple"
+  },
+  {
+    id: 2,
+    title: "Interfaculty Football Tournament",
+    category: "Sports",
+    date: "18 NOV, 2026",
+    time: "3:00 PM",
+    venue: "University Sports Field",
+    image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=900",
+    description: "Watch your favourite faculties compete for glory.",
+    color: "green"
+  },
+  {
+    id: 3,
+    title: "MSSN Nigeria Summit",
+    category: "Faith",
+    date: "20 NOV, 2026",
+    time: "9:00 AM",
+    venue: "Main Campus Mosque",
+    image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=900",
+    description: "A gathering for learning, faith and meaningful connections.",
+    color: "orange"
+  },
+  {
+    id: 4,
+    title: "Campus Dinner Party",
+    category: "Social",
+    date: "22 NOV, 2026",
+    time: "5:00 PM",
+    venue: "Students' Centre",
+    image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=900",
+    description: "An evening of good food, music and unforgettable memories.",
+    color: "pink"
+  },
 ];
 
 export default function EventsPage() {
@@ -39,7 +79,7 @@ export default function EventsPage() {
           <p>Find exciting campus events, explore new interests and make memories with your university community.</p>
         </div>
         <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1100" alt="Campus event" />
+          <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=1100" alt="Students attending a live campus event" />
         </div>
       </section>
 
